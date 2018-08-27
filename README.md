@@ -1,11 +1,11 @@
-# Full Request URL [![Build Status](https://img.shields.io/travis/zsoltime/req-url.svg?style=flat-square)](https://travis-ci.org/zsoltime/req-url)
+# Full Request URL [![Build Status](https://img.shields.io/travis/zsoltime/requested-url.svg?style=flat-square)](https://travis-ci.org/zsoltime/requested-url)
 
 > Get the full request URL in Express applications
 
 ## Install
 
 ```bash
-npm install req-url
+npm install requested-url
 ```
 
 ## Import
@@ -13,20 +13,20 @@ npm install req-url
 ### Node
 
 ```javascript
-const fullUrl = require('req-url');
+const fullUrl = require('requested-url');
 ```
 
 ### ES6 import
 
 ```javascript
-import fullUrl from 'req-url';
+import fullUrl from 'requested-url';
 ```
 
 ## Usage
 
 ```javascript
 const express = require('express');
-const fullUrl = reqiure('req-url');
+const fullUrl = reqiure('requested-url');
 
 cosnt app = express();
 
