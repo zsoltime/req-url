@@ -1,0 +1,38 @@
+{
+  "name": "req-url",
+  "version": "0.1.0",
+  "description": "Get the full URL in Express applications",
+  "main": "src/index.js",
+  "scripts": {
+    "lint": "eslint src",
+    "prepublishOnly": "npm run build",
+    "pretest": "npm run lint",
+    "release": "np",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zsoltime/req-url.git"
+  },
+  "keywords": [
+    "express",
+    "url",
+    "full",
+    "full url",
+    "request url"
+  ],
+  "author": "Zsolt Meszaros",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zsoltime/req-url/issues"
+  },
+  "homepage": "https://github.com/zsoltime/req-url#readme",
+  "devDependencies": {
+    "eslint": "^5.4.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "jest": "^23.5.0",
+    "np": "^3.0.4"
+  }
+}
